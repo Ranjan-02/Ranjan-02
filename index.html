@@ -10,28 +10,60 @@
 </head>
 
 <body class="h-fit">
-    <nav class=" h-[70px] flex justify-between items-center  bg-gray-400">
-        <img src="./ylogo.png" alt="youtube logo" class="h-10 w-[400px] ml-14">
+    <nav class=" h-[70px] flex justify-between items-center  bg-gray-400 drop-shadow-2xl">
+        <img src="./ylogo.png" alt="youtube logo" class="h-10 w-[400px] ml-14 drop-shadow-2xl">
         <ul class="flex gap-12 flex-grow-0 mr-[100px] items-center">
-            <li class="text-[#ffffff]">Home</li>
-            <li class="text-[#ffffff]">shorts</li>
-            <li class="text-[#ffffff]">pricing</li>
-            <li class="text-[#ffffff]">FAQ</li>
-            <li class="text-[#ffffff]">About</li>
-            <button type="submit" class="border-solid border-2 bg-blue-400 h-10 w-32 rounded-md">Download</button>
-
+            <li
+                class="cursor-pointer font-bold hover: text-[#ffffff] hover:bg-blue-600 hover:-translate duration-300 hover:text-black hover:rounded-md focus:pointer-events-auto">
+                Home</li>
+            <li
+                class="cursor-pointer font-bold hover: text-[#ffffff] hover:bg-blue-600 hover:-translate duration-300 hover:text-black hover:rounded-md">
+                Shorts</li>
+            <li
+                class=" cursor-pointer font-bold hover: text-[#ffffff] hover:bg-blue-600 hover:-translate duration-300 hover:text-black hover:rounded-md">
+                Pricing</li>
+            <li
+                class=" cursor-pointer font-bold hover: text-[#ffffff] hover:bg-blue-600 hover:-translate duration-300 hover:text-black hover:rounded-md">
+                FAQ</li>
+            <li
+                class=" cursor-pointer font-bold hover: text-[#ffffff] hover:bg-blue-600 hover:-translate duration-300 hover:text-black hover:rounded-md">
+                About</li>
+            <button type="submit"
+                class="border-solid border-2 bg-blue-400 hover:-translate duration-300 h-10 w-32 rounded-md drop-shadow-2xl  hover:bg-blue-600 hover:text-black hover:rounded-md">Download</button>
         </ul>
     </nav>
-    <main class=" h-[550px] flex ">
-        <div class="w-[40%] mr-14 flex text-center flex-col items-center justify-center gap-8 relative border-solid  ">
-            <h1 class=" text-5xl  text-[#120E43]">Lorem ipsum dolor sit, <span class="text-[#1B98F5]">Crash</span> cosectetur adipisicing.</h1>
-            <p class=" text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, alias error ipsum atque nam fugiat. Unde
+    <main class=" h-[400px] flex ">
+        <div class="w-[40%] mr-14 flex text-center relative flex-col items-center justify-center gap-8  border-solid  ">
+            <h1 class=" text-5xl  text-[#120E43]">Lorem ipsum dolor sit, <span class="text-[#1B98F5]">Crash</span>
+                cosectetur adipisicing.</h1>
+            <p class=" text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, alias error ipsum atque
+                nam fugiat. Unde
                 dolore doloribus molestiae voluptate?</p>
-            <button type="submit" class="border-solid border-2 bg-[#03203C] h-14 w-52 rounded-lg text-[#ffffff]  ">Learn More</button>
+
+            <button type="submit"
+                class="border-solid border-2 absolute bottom-0 bg-[#03203C] h-14 w-52 hover:h-10 w-48 rounded-lg text-[#ffffff] hover:-translate-0.5 duration-300 drop-shadow-2xl hover:bg-blue-600 hover:text-black hover:rounded-md ">Learn
+                More</button>
+
         </div>
         <div class="w-[60%] flex items-center justify-center">
             <img src="./youtube.jpeg" alt="" class="max-w-full max-h-full">
         </div>
+    </main>
+    <main class="flex items-center justify-center gap-2 mt-11 flex-col">
+        <div class="">
+            <p class="font-bold">Contact Us</p>
+        </div>
+        <div class="flex gap-4 ">
+            <img src="./twitter.svg" alt=""
+                class="cursor-pointer h-8 w-8 rounded-xl hover:h-10 w-10 hover:-translate-y-1 duration-300">
+            <img src="./facebook (1).svg" alt=""
+                class="cursor-pointer h-8 w-8  rounded-xl  hover:h-10 w-10 hover:-translate-y-1 duration-300">
+            <img src="./linkedin.svg" alt=""
+                class="cursor-pointer h-8 w-8 rounded-xl  hover:h-10 w-10 hover:-translate-y-1 duration-300">
+            <img src="./square-instagram.svg" alt=""
+                class=" cursor-pointer h-8 w-8 rounded-xl  hover:h-10 w-10 hover:-translate-0.5 duration-300">
+        </div>
+
     </main>
 </body>
 
