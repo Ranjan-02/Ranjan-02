@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    height: 30vh;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 26px 3px 8px;
+    
+}
+.logo img{
+    height: 40px;
+}
+.navlist{
+    width: 50%;
+    /* background-color: rgb(116, 188, 15); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navlist li{
+    list-style: none;
+    padding: 23px;
+
+}
+.navlist li a:hover{
+    color: rgb(56, 142, 228);
+}
+
+
+
+.navlist li a{
+    text-decoration: none;
+    padding: 3px;
+    list-style: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+.rightnav{
+    width: 50%;
+    /* background-color: blue; */
+    text-align: right;
+    padding-right: 100px;
+    padding-top: 17px;
+}
+.btnsm{
+   padding: 5px;
+   font-size: 7px;
+   font-size: 20px;
+   background-color: #99b5d2;
+   border-radius: 10px;
+   border-color: #ffffff;
+   cursor: pointer;
+}
+.btnsm:hover{
+    color: #ffffff;
+    background-color: #e98f2f;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.liftside {
+    font-size: 30px;
+    color: #03040f;
+    display: flex;
+    box-sizing: auto;
+    height: 70vh;
+
+}
+
+#ironman{
+    color: #e98f2f;
+}
+.buttom{
+    font-size: 10px;
+}
+
+ 
