@@ -9,7 +9,7 @@
   <img align="center" src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47awf4akrdgkp0pd4chpspy9z2o0ocwc0e9b4ey3hc&rid=giphy.gif&ct=g" width="500"/>
   <br>
   
-  <img src="https://github-readme-status.vercel.app/api?username=Ranjan-02&show_icons=true&locale=en&theme=tokyonight"  width="500" />
+ 
   <br>
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ranjan-02&count_private=true&langs_count=7&theme=tokyonight&layout=compact" width="500" />
 </p>
