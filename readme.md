@@ -10,8 +10,5 @@
   <br>
   
  
-  <br>
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ranjan-02&count_private=true&langs_count=7&theme=tokyonight&layout=compact" width="500" />
-</p>
-
+  
 
