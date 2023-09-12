@@ -5,7 +5,7 @@
 
 <h1 align="center">Hi 👋, I'm Ranjan Maji </h1>
 
-<p float="left" align="middle">
+<p float="left" >
   <img align="center" src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47awf4akrdgkp0pd4chpspy9z2o0ocwc0e9b4ey3hc&rid=giphy.gif&ct=g" width="500"/>
   <br>
   
